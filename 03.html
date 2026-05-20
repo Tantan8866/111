@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>产品中心 - SOUNDWAVE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="custom-cursor"></div>
+<div id="cursor-follower"></div>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">SOUND<span>WAVE</span></a>
+    <nav class="nav">
+      <a href="index.html">首页</a>
+      <a href="about.html">品牌</a>
+      <a href="products.html" class="active">产品</a>
+      <a href="specs.html">规格</a>
+      <a href="contact.html">联系我们</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page">
+  <div class="container">
+    <h1>热门产品</h1>
+    <div class="products">
+      <div class="product magnetic-item">
+        <h3>Pro X</h3>
+        <p>主动降噪 | 无线充电</p>
+        <button onclick="addToCart('Pro X',1299)">加入购物车</button>
+      </div>
+      <div class="product magnetic-item">
+        <h3>Air 2</h3>
+        <p>半入耳 | 轻量化</p>
+        <button onclick="addToCart('Air 2',699)">加入购物车</button>
+      </div>
+      <div class="product magnetic-item">
+        <h3>Bass Max</h3>
+        <p>重低音 | 运动防水</p>
+        <button onclick="addToCart('Bass Max',899)">加入购物车</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/js/font-awesome.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
